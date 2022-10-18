@@ -1,0 +1,25 @@
+
+3. Command to check current umask value ---> umask (without any arguments)
+
+#Permissions for newly created Directory(mydir): -
+1. Since by default, FULL PERMISSION SET for directory is 777, therefore
+  permissions assigned for directory = FULL Permission set for directory - current umask value
+2. In this case, permissions assigned to mydir = 777-077
+3. permissions assigned to mydir= 700 ---> rwx------
+    
+
+#Permissions for newly created file(myfile.txt): -
+1. Since by default, FULL PERMISSION SET for regular file is 666, therefore
+  permissions assigned for regular file= FULL Permission set for regular file - current umask value
+2. In this case, permissions assigned to myfile.txt = 666-066
+3. permissions assigned to myfile.txt= 600 ---> rw-------
+
+EXPLANATION FOR "myfile.txt"
+
+Note: The files cannot be given execution permissions by default as it can cause a security concern, 
+      and Linux systems are pretty much known for their amazing security, so that wouldn’t be good.
+
+Therefore, Linux does not provide execute permissions by default, even if it is specified in the umask. 
+As a result, umask value of 077 for files will eventually truncate to 066.
+However, for directories, umask value of 077 will remain as it is (i.e 077 ).
+    

@@ -1,0 +1,11 @@
+#Activity 3 - umask Command
+1. Go to your home directory(/home/username) and make directory "slg_for_uli"
+2. Now, change your current directory to this newly created directory(slg_for_uli)
+3. Now, Issue a command to check the current umask value for this directory
+ Now issue these commands:
+4. umask 077
+5. mkdir mydir
+6. touch mydir/myfile.txt
+
+What would be the permissions for the newly created directory and regular file?
+(show your work) - You should be able to reason your answer.

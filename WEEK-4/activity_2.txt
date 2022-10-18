@@ -1,0 +1,23 @@
+
+#Activity 2 - chmod command with octal method
+MAKE SURE YOU ARE IN "slg_for_uli" directory
+
+Using OCTAL METHOD, set these permissions for file "permission1.txt"
+
+1. Give all permissions(read,write,execute) to user(u) and group(g), read and execute permissons for others(o). 
+
+2. Give read permission to user(u), write and execute for group(g) and read and execute for others(o). 
+
+3. Give full read write and execute permission  to all the groups(users, group, others). 
+
+4. Give write permission to users, read and write permission to group, and execute permission to others.
+
+5. Give exectue permission to users, read and execute permissions to group and others
+
+6. Give read and write permission to users,and execute permission to others.(no permissions for group).
+
+7. Give write permission to users,read and execute permission to group,read and write permission to others.
+
+
+
+

@@ -1,0 +1,18 @@
+#Activity 1 - chmod command with symbolic method
+
+Using SYMBOLIC METHOD:
+IMPORTANT NOTE: 
+   In Activity #1, please make sure YOU use right symbol for keyword used since its a symbolic method
+   Keyword assign ---> (=),
+   Keyword add  ---> (+), 
+   Keyword revoke --->  (-)
+
+BEFORE starting the QUESTIONS:
+ - Go to your home directory(/home/username) and make directory "slg_for_uli"
+ - change your current directory to this newly created directory(slg_for_uli)
+ - Now, issue command - touch permission1.txt permission2.txt
+
+1. Add read(r) and write(w) permission to both user(u) and group(g) and revoke execute(x) permission from others(o) for the file permission1.txt
+2. Assign read(r) and execute(x) permission to both user(u) and group(g) and add read permission to others for the file permission2.txt.
+3. Take all permissions(read,write,execute) away from everyone(users, group, others) for file permission1.txt.
+4. Add read(r) and execute(x) permission to user(u), revoke write(w) and add execute(x) permission from group, and add execute(x) permission and revoke read(r) and write(w) permission from others for file permission1.txt

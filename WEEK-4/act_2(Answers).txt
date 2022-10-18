@@ -1,0 +1,9 @@
+Activity #2(ANSWERS)
+
+1. chmod 775 permission1.txt
+2. chmod 435 permission1.txt
+3. chmod 777 permission1.txt
+4. chmod 261 permission1.txt
+5. chmod 155 permission1.txt
+6. chmod 601 permission1.txt
+7. chmod 256 permission1.txt

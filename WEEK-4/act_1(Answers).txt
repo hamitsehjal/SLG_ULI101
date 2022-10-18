@@ -1,0 +1,8 @@
+Activity #1(ANSWERS)
+ 1. chmod ug+rw,o-x permission1.txt
+ 2. chmod ug=rx,o+r permission2.txt
+ 3. chmod ugo-rwx permission1.txt or chmod a-rwx permission1.txt
+ 4. chmod u+rx,g-w,go+x,o-rw permission1.txt
+
+
+
