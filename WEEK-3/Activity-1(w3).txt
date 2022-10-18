@@ -1,0 +1,24 @@
+1. Confirm you are in home directory and then Issue command - rm -r slg_for_uli
+2. Issue the following command to create a directory structure -  mkdir -p slg_for_uli/{slg_week1/tutorials/practice,slg_week2/desings,slg_week3/references}
+
+Here comes the QUESTIONS:
+ 1. change your current directory to directory "practice" using absolute path
+ 2. change your current directory to directory "references" using relative path
+ 3. change your current directory to directory "designs" using relative-to-home pathname
+ 4. change your current directory to directory "tutorials" using relative path
+ 5. change your current directory to directory "slg_week3" using relative path
+ 6. change your current directory to directory "desings" using absolute path
+ 7. change your current directory to directory "practice" using relative-to-home pathname
+
+
+
+
+
+
+
+
+
+
+
+
+

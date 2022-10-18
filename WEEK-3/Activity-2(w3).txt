@@ -1,0 +1,16 @@
+-Students to Breakout Room
+
+1. Confirm your current directory to be your Home directory
+2. Issue the command - mkdir -p slg_for_uli 
+3. Issue the command - cd slg_for_uli
+4. Issue the command - touch object.c  source.txt  value.o  week1.c  week1.o  week1.txt  week2.c  week2.o  week2.txt
+5. Confirm the files using ls command
+- Here comes the QUESTIONS: -
+  1. Using Wildcard characters, find the filenames pertaining to only week1 i.e(week1.txt,week1.c,week1.o)
+  2. Using Wildcard characters, find the filenames pertaining to only week2 i.e(week2.c,week2.o,week2.txt)
+  3. Using Wildcard characters, find the filenames that end with ".txt" extention i.e(source.txt,week1.txt,week2.txt)
+  4. Using Wildcard characters, find the filenames that end with ".txt" extention and start with alphabet "w" i.e(week1.txt,week2.txt)
+  5. Using Wildcard characters, find the filenames that end with ".c" or ".o" extention and start with alphabet "w" i.e(week1.c,week1.o,week2.c,week2.o)
+NOW, issue the command - touch WeAk4.c  wEEk5.c wAaaK.c wABa.c wAaaaa.c AWabba.c
+  6. Using Wildcard characters, find these filenames only - WeAk4.c  wEEk5.c 
+  7. Using Wildcard characters, find these filenames only - wAaaaa.c AWabba.c

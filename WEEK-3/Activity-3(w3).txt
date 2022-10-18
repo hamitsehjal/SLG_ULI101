@@ -1,0 +1,9 @@
+  1. Using Wildcard characters, remove the filenames pertaining to only week1 i.e(week1.txt,week1.c,week1.o)
+  2. Using Wildcard characters, remove the filenames pertaining to only week2 i.e(week2.c,week2.o,week2.txt)
+  3. Using Wildcard characters, remove these filenames only - WeAk4.c  wEEk5.c 
+  4. Using Wildcard characters, remove these filenames only - wAaaaa.c AWabba.c
+LAST PART:
+ 1. Navigate to your home directory
+ 2. Confirm your location
+ 3. Print the following on the screen using linux command
+     *Hello Everyone, I*! [am learning!]! Quoting** Today! 

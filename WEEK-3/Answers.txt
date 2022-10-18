@@ -1,0 +1,35 @@
+
+ACTIVITY #1:
+
+1. cd /home/hsehjal/slg_for_uli/slg_week1/tutorials/practice/
+2. cd ../../../slg_week3/references/
+3. cd ~/slg_for_uli/slg_week2/desings/
+4. cd ../../slg_week1/tutorials/
+5. cd ../../slg_week3/
+6. cd /home/hsehjal/slg_for_uli/slg_week2/desings/
+7.  cd ~/slg_for_uli/slg_week1/tutorials/practice/
+
+ACTIVITY #2:
+
+1. ls week1*
+2. ls week2*
+3. ls *.txt
+4. ls w*.txt
+5. ls w*.[co]
+6.ls ???k[45].c
+ ls *k[45].c
+ ls *[45].c
+
+7. ls [A-w][A-w]a[ab][ab]a.c
+or 
+    ls [wW][eE][AE]k[45].c
+
+ACTIVITY #3:
+
+1. rm -i week1*
+2. rm -i week2*
+3. rm -i  ls *[45].c
+4. rm -i [A-w][A-w]a[ab][ab]a.c
+
+FOR QUOTING QUESTIONS:
+ \*Hello Everyone, I\*\! [am learning\!]\! Quoting\*\* Today\! 
