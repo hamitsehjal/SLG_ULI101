@@ -1,0 +1,61 @@
+
+
+# HANDOUT:2 (Creating and navigating through a Directory Structure:)
+
+-COMMAND TO CREATE DIRECTORY STRUCTURE:
+  	mkdir -p tim_hortons/{breakfast/chipotle_Wrap,breakfast/egg_Bagel,dinner,lunch/Croissants,lunch/habenaro,lunch/tim_beibs}
+
+-ANSWERS TO QUESTIONS:
+(IMP: at this point, our current position is "user's home directory")
+	1.  cd /home/hsehjal/tim_hortons/breakfast/egg_Bagel
+	2.  cd ../../lunch/Croissants
+	3.  cd ~/tim_hortons/breakfast/chipotle_Wrap
+	4.  cd ../../dinner
+	5.  cd ../lunch/tim_beibs
+	6.  cd /home/hsehjal/tim_hortons/lunch/habenaro
+	7.  cd ~/tim_hortons/breakfast
+
+# HANDOUT:3
+
+(IMP: For these Questions, I am assuming you guys are in your home directory)
+
+1. touch tim_hortons/lunch/tim_beibs/choc_glazed.txt tim_hortons/lunch/tim_beibs/birth_cake.txt
+2. vi tim_hortons/lunch/tim_beibs/birth_cake.txt
+4. Press "ESC" KEY on Keyboard to exit "Insert Mode". Now, since you are in Command line mode. Use command ":wq" to save and exit the "vi editor".
+5. cat tim_hortons/lunch/tim_beibs/birth_cake.txt
+6. head -5 tim_hortons/lunch/tim_beibs/birth_cake.txt
+7. tail -4 tim_hortons/lunch/tim_beibs/birth_cake.txt
+8. grep "happiness" -4 tim_hortons/lunch/tim_beibs/birth_cake.txt
+9. diff -i tim_hortons/lunch/tim_beibs/birth_cake.txt tim_hortons/lunch/tim_beibs/choc_glazed.txt
+10. sort tim_hortons/lunch/tim_beibs/birth_cake.txt
+11. uniq tim_hortons/lunch/tim_beibs/birth_cake.txt
+
+# HANDOUT:4 (chmod command with OCTAL METHOD)
+ (IMP: change your current location to directory "tim_hortons")
+
+1. chmod 261 lunch/tim_beibs/birth_cake.txt
+2. chmod 435 /home/hsehjal/tim_hortons/lunch/tim_beibs/birth_cake.txt
+3. chmod 261 ~/tim_hortons/lunch/tim_beibs/birth_cake.txt
+	
+    (IMP: Now, change your current location to directory "egg_Bagel" of "tim_hortons" directory)
+
+4. chmod 155 ../../lunch/tim_beibs/birth_cake.txt
+
+    (IMP: Now, change your current location to directory "habenaro" of "tim_hortons" directory)
+
+5. chmod 601 ../tim_beibs/birth_cake.txt
+6. chmod 256 /home/hsehjal/tim_hortons/lunch/tim_beibs/birth_cake.txt 
+
+# HANDOUT:5 
+
+1. ls -al /bin >> tim_hortons/lunch/tim_beibs/choc_glazed.txt
+2. cat prime.txt netflix.txt hotstar.txt 2> tim_hortons/lunch/tim_beibs/choc_glazed.txt
+3. cat ~/fan.txt ~/box.txt ~/tim_hortons/lunch/tim_beibs/choc_glazed.txt > ~/tim_hortons/dinner/food.txt 2> ~/tim_hortons/lunch/habenaro/errors.txt
+4. cat ~/fan.txt ~/box.txt ~/tim_hortons/lunch/tim_beibs/choc_glazed.txt >> tim_hortons/dinner/food.txt 2> /dev/null
+5. cat ~/tim_hortons/lunch/tim_beibs/birth_cake.txt | more
+6. ls tim_hortons | sort -r
+7. tail -5 tim_hortons/lunch/tim_beibs/birth_cake.txt | head -3
+8. sort -r tim_hortons/lunch/tim_beibs/birth_cake.txt | head -5 | tee -a tim_hortons/dinner/food.txt
+9. tail -3 tim_hortons/dinner/food.txt | wc -m
+10. head -6 tim_hortons/lunch/tim_beibs/birth_cake.txt | wc -w
+11. cut -c 1-10 tim_hortons/lunch/tim_beibs/birth_cake.txt | more
