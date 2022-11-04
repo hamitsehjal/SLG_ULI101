@@ -1,0 +1,18 @@
+# Activity - 2
+
+1. Change your current location to "img" directory meaning you must be inside "img" directory.
+2. Using relative Path, Copy directory "css" into directory "vendor". Make sure that you copy the directory "css" as a whole along with its contents.
+3. Using relative Path, change your current location to (inside) "plugin_exp" directory.
+4. Using relative Path, move the directory "robots" to directory "404.html".
+5. Keeping in mind your current location and using absolute Pathname, set permissions of file "pic_1.jpg" to the following:
+	read and write to users, read and execute to group and execute to others using octal method.
+6. Keeping in mind your current location and using relative Pathname, open file "plugin_exp.js" using vim/vi editor.
+7. Enter the following Text:
+
+	Hi Everyone, my Name is <Replace with your Full Name>
+	My Professor Name is <Replace with your Professor's Name>
+	My Section is <Replace with your Section Name>
+	My Feedback for SLG Session is "Your Feedback here"!!
+
+8. make a file file named "web.txt" in "plugin_exp directory" and Copy the contents of "plugin_exp.js" into it in one single command.
+

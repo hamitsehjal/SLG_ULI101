@@ -1,0 +1,15 @@
+1. change your current location to "vendor" directory using relative Path.
+2. Now, using relative pathname, send the file "web.txt" as an attachment in an email to your "seneca  email address" with Subject line "Slg Sessions"
+3. Using a single linux command, list all the files and directories in webApp directory, display the output to screen and also save it in a file named "listing.css" inside css directory using a single linux command. (use relative Pathname and NO REDIRECTION).
+4. Using a single linux command, perform the following set of operations!!
+	- translate the contents of file "plugin_exp.js" to UPPERCASE using linux utility and save it in a file "translate_1.css" inside "css" directory.
+	- count the number of words, lines and characters in the translated contents and save it in a file "count.css" inside "css" directory
+(* At every step, use relative pathname and the whole operations needs to be a single linux command[hint -> piping])
+
+5. Using a single linux command, perform the following set of operations!!
+	- translate the contents of file "plugin_exp.js" to lowercase using linux utility and save it in a file "translate_2.css" inside "css" directory.
+	- display only fields "1,3,6,7" of translated text and append it in a file "jquery.min.js" inside "vendor" directory.
+	- sort the contents of the previous command in reverse order and save output to a file "modrerenizr.min.js" - (overwrite the contents of this file and no output should display on the screen. It should only be saved in the file "modrerenizr.min.js").
+(* At every step, use relative pathname and the whole operations needs to be a single linux command[hint -> piping])
+
+
