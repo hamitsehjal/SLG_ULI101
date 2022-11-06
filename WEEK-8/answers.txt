@@ -1,0 +1,30 @@
+-ACTIVITY #3:
+1. mkdir -p webApp/{404.html,css,doc,.hataccess,img,js,plugins/plugin_exp,robots,vendor}
+2. touch webApp/css/{main.css,normalize.css}
+3. touch webApp/img/{pic_1.jpg,pic_2.jpg}
+4. touch webApp/js/{app.js,appService.js}
+5. touch webApp/plugins/plugin_exp/{plugin_exp.js,web.txt}
+6. touch webApp/robots/{.favicon.ts,.site.webmanfest}
+7. touch webApp/vendor/{jquery.min.js,modrenenizr.min.js}
+
+-ACTIVITY #2:
+1. cd webApp/img/
+2. cp -R ../css ../vendor
+3. cd ../plugins/plugin_exp/
+4. mv ../../robots/ ../../404.html/
+5. chmod 651 /home/hsehjal/webApp/img/pic_1.jpg
+6. vi plugin_exp.js
+7. traditional copy/paste and the save it using ":x" or ":wq"
+8. cat plugin_exp.js > web.txt
+
+-ACTIVITY #3:
+1. cd ../../vendor
+
+2.  mail -s "Slg Sessions" -a ../plugins/plugin_exp/web.txt hamit.sehjal@senecacollege.ca
+Hi I am hamit!!
+
+3. ls -al ../. | tee ../../css/listing.css
+
+4.  cat ../plugins/plugin_exp/plugin_exp.js | tr "[a-z]" "[A-Z" | tee ../css/translate_1.css | wc > ../css/count.css
+
+5.  tr "[A-Z]" "[a-z]" < ../plugins/plugin_exp/plugin_exp.js |tee ../css/translate_1.css |  cut -d " " -f 1,3,5,7 | tee-a jquery.min.js | sort -r > modrerenizr.min.js
