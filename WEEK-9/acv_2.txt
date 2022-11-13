@@ -1,0 +1,16 @@
+# Managing Background processes:
+   -Use the diagram shared (acv_2.png) to answer the accompanying questions.
+   -Each of the following questions will use the diagram below and are treated as independent situations.
+
+1. Write a single Linux command to bring the second-recently process placed in the background into the foreground.
+2. Write a single Linux command to resume the most recent process placed in the background (the one that is stopped in the background)
+3. Write a single Linux command to bring the process with job id: 3 in the background to the foreground.
+4. Write a single Linux command to resume the process with job id:2 placed in the background (the one that is stopped in the background)
+5. Issue a command "sleep 200"and then write the command to send this foreground process to background.
+6. Now, write a command to bring this process (the most recent one) back to foregound.
+7. Write a single Linux command to start this process "sleep 10" in the background
+8. Write a single Linux command to terminate process with PID #41368
+9. Write a single Linux command to kill the process with job #4
+10. Write a single Linux command to terminate the process with job #2
+11. Write a single Linux command to kill the process with PID #41394
+
