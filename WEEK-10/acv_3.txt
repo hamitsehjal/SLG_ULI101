@@ -1,0 +1,17 @@
+- ACTIVITY #3:
+
+BEFORE YOU START, issue this command to have "week10_slg.txt" in your home directory!!
+ - issue command "cd" to change your current location to your home directory!!
+
+ - Now issue this command,  cp ~hsehjal/slgFall_2022/week10_slg.txt week10_slg.txt
+
+IMP - Now, you should have file named "week10_slg.txt" in your home directory!!
+
+1. Write a Linux command to display all lines in the file called ~/week10_slg.txt that begins with 1 or 
+   more occurrences of the word “the ” AND ends with minimum 1 and a maximum of 3 occurences of word "yes " or just the word “but ” (upper or lower case).
+
+2. Write a SHORTEST Linux command to display all lines in the file called ~/week10_slg.txt that contains pattern "chEvy..-355"  OR "ChEad-.+32"
+
+3. Write a SHORTEST Linux command to display all lines in the file called ~/week10_slg.txt that contains pattern "CheeOy.-33-+.5" OR "Abc.+234+..44".
+
+

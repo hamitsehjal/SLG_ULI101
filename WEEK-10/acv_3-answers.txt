@@ -1,0 +1,5 @@
+1.  egrep -w "^(the ){1,}.*(yes {1,3}|but |BUT )$" week10_slg.txt
+
+2.  egrep "^[cC].*[.]?[-+]3[52]{1,2}$" week10_slg.txt
+
+3. egrep "^[a-zA-Z]{3}.*[-+]+[.]{1,2}[54]+$" week10_slg.txt
