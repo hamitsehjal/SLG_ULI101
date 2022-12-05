@@ -1,0 +1,13 @@
+1. Write a Bash Shell script "login.sh" that does the following task in order:
+
+	- Clears the screen
+
+	- Displays "My username is: <YOUR-USERNAME>" (Make sure that you use environment variable to get the username and not a Unix/Linux Command)
+
+	- Display "Other users logged into system are: <LIST OF ALL USERS>" (HINT: use Command Substitution here!!)
+
+	- Prompts for a username and store it in a variable "username". (IMP: Do Not use "echo" command)
+
+	- Prompt for a password and store it in a variable "password" in a single line. (IMP: Must include "echo" command in addition to any other command used)
+
+	- Display "valid user" if username is equals to "admin" and password is equals to "secret". Otherwise Display "invalid user"
