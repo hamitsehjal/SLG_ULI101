@@ -1,0 +1,40 @@
+# Activity 2:
+Before you begin, issue these commands to get all the required files
+
+	cp ~murray.saul/uli101/stuff.txt stuff.txt
+
+	wget https://github.com/ULI101/labs/raw/main/cars.txt
+
+1. Write a Linux awk command to display all records for the file: cars.txt whose fifth field is greater than 10000.
+
+2. Write a Linux awk command to display the first and fourth fields for the file: cars.txt whose fifth field begins with a number.
+
+3. Write a Linux awk command to display the second and third fields for the file: cars.txt for records that match the pattern “chevy”.
+
+4. Write a Linux awk command to display the first and second fields for all the records contained in the file: cars.txt
+
+Do these Questions with regard to content of file "stuff.txt"
+For better understanding - issue command "cat stuff.txt" and then find answers to each Question:
+
+5. Write a Linux awk command to display only the following given text on the screen from file "stuff.txt":
+	
+This is the third.
+
+6. Write a Linux awk command to display only the following given text on the screen from file "stuff.txt":
+
+This is the second line.
+This is the third.
+This is line four.
+Five.
+
+7. Write a Linux awk command to display only the following given text on the screen from file "stuff.txt":
+      
+is
+is
+is
+
+8. Write a Linux awk command to display only the following given text on the screen from file "stuff.txt":
+
+the is
+the is
+line is

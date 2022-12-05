@@ -1,0 +1,43 @@
+# ACTIVIY 1:
+
+Before you start, Issue this command: cp ~hsehjal/slgFall_2022/elonMusk.txt ./elonMusk.txt
+
+1. Use the sed command to display only 5,6,7 and 8th line of the file "elonMusk.txt"
+
+2. Use the sed command to only display first 4 lines of the file "elonMusk.txt". Do not use "p" as intruction(operation) for this command!!
+
+3. Use the sed command to display only lines 1,2,3,6,7,8 and 9th of the file "elonMusk.txt". It means you need to omit the display of lines 4th and 5th!!
+
+4. Use the sed utility in a single Linux command to manipulate the file "elonMusk.txt" as following and display it to the screen as well as save it in a file named "edit_elon1.txt"
+
+I tesla am Elon Musk
+I just bought Twitter
+I love making literal memes
+tesla model 3 2019
+tesla model X *** & ***023
+tesla roadster *** & ***021
+tesla model Y *** & ***022
+chevy nova 79 2009
+tesla Sedan 2022
+
+5. Use the sed utility in a single Linux command to manipulate the file "elonMusk.txt" as following and save it in a file named "edit_elon2.txt"
+
+I tesla am Elon Musk
+I just bought Twitter
+I love making literal memes
+tesla model 3 2019
+tesla model X *** 2023 ***
+tesla roadster *** 2021 ***
+tesla model Y *** 2022 ***
+chevy nova 79 2009
+tesla Sedan 2022
+
+6. Write a Linux sed command to display only lines the begin the pattern “tesla” and end with a digit for the file: elonMusk.txt
+
+
+
+
+
+
+
+
